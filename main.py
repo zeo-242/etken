@@ -2,7 +2,6 @@ import os
 import telebot
 import openai
 from dotenv import load_dotenv
-import time
 
 load_dotenv()
 BOT_TOKEN = os.getenv('BOT_TOKEN')
